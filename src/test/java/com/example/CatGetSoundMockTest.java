@@ -7,7 +7,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public class TestCatGetSoundMock {
+public class CatGetSoundMockTest {
 
     @Mock
     Cat cat;
