@@ -13,7 +13,7 @@ public class FelineMockTest {
     Feline feline;
 
     @Test
-    public void testGetSoundMock() throws Exception {
+    public void testFelineMock() throws Exception {
         Lion lion = new Lion("Самец", feline);
         lion.getKittens();
         Mockito.verify(feline, Mockito.times(1)).getKittens();
